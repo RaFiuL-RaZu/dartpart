@@ -1,5 +1,5 @@
 void main(){
 
-  var list1=["Razu","Sazu"];
-  print(list1);
+  var name=["Razu","Sazu"];
+  print(name);
 }
