@@ -1,9 +1,10 @@
 void main(){
  //Odd number in list
 
-   var list1=[1,10,15,4,8,6,7,2,9,13,11];
+   var list1=[10,20,25,30,40,45];
+  var num=25;
 
-    var odd= list1.where((number)=> number%2!=0).toList();
+  var count=list1.where((number)=>number>num).length;
 
-   print(odd);
+   print(count);
 }
