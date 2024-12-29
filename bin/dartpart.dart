@@ -1,8 +1,9 @@
 void main(){
- //remove duplicate element in list
+ //assending order in list
 
-   var list1=[1,2,2,4,4,6,7,8,9,9,10];
+   var list1=[1,10,15,4,8,6,7,2,9,13,11];
 
-   var duplicate=list1.toSet().toList();
-   print(duplicate);
+    list1.sort();
+
+   print(list1);
 }
