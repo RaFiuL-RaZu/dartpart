@@ -1,8 +1,8 @@
 void main(){
- //contains element in list
+ //remove duplicate element in list
 
-   var list1=[1,2,3,4,5,6,7,8,9,10];
+   var list1=[1,2,2,4,4,6,7,8,9,9,10];
 
-   var cont=list1.contains(11);
-   print(cont);
+   var duplicate=list1.toSet().toList();
+   print(duplicate);
 }
