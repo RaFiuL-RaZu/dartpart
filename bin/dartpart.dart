@@ -1,9 +1,9 @@
 void main(){
- //assending order in list
+ //Even number in list
 
    var list1=[1,10,15,4,8,6,7,2,9,13,11];
 
-    list1.sort((a,b)=> b.compareTo(a));
+    var even= list1.where((number)=> number%2==0).toList();
 
-   print(list1);
+   print(even);
 }
