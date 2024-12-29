@@ -1,12 +1,15 @@
 
-void main(){
+void main() {
+  var numbers = [1, 2, 3, 4, 5];
 
-   var list1=[10,20,25,30,40,45,50,55,60];
+  int last = numbers[numbers.length - 1];
 
-   int firstElement=list1.removeAt(0);
-   list1.add(firstElement);
+  for (int i = numbers.length - 1; i > 0; i--) {
+    numbers[i] = numbers[i - 1];
+  }
 
-   print(list1);
 
+  numbers[0] = last;
 
+  print(numbers);
 }
