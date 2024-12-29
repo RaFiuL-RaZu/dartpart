@@ -1,9 +1,12 @@
+
 void main(){
- //multiple by 2 in list number
 
    var list1=[10,20,25,30,40,45,50,55,60];
 
-  var sublistinlist= list1.sublist(0,6);
-  print(sublistinlist);
+   int firstElement=list1.removeAt(0);
+   list1.add(firstElement);
+
+   print(list1);
+
 
 }
