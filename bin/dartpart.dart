@@ -3,17 +3,13 @@
 import 'dart:io';
 
 void main() {
+  int a=10;
+  int b=5;
 
-  int num=20;
+  a=a+b;
+  b=a-b;
+  a=a-b;
 
-  bool isprime=true;
-  
-  for(int i=0; i<num~/2;i++){
-    if(num%2==0){
-      isprime=false;
-      break;
-    }
-
-  }
-  print(isprime? "Prime": "Not prime");
+  print(a);
+  print(b);
 }
