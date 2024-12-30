@@ -1,13 +1,8 @@
 
 
 void main() {
-  String str="Razu";
-  int count=0;
-  for(int i=0; i<str.length; i++){
-    if("aeiou".contains(str[i].toLowerCase())){
-      count++;
-    }
+  int a=10,b=25,c=20;
 
-  }
-  print(" Vowel are: $count");
+  int max= (a>b)? (a>c? a:c):(b>c? b:c);
+  print(max);
 }
