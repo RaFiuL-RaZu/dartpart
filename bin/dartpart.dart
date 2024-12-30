@@ -1,11 +1,19 @@
+import 'dart:io';
+
 void main(){
 
-  var number=24;
+  stdout.write("Enter Principal Amount:");
+  double Pricipal= double.parse(stdin.readLineSync()!);
 
-  if(number%2==0){
-    print("Even Number");
-  }
-  else{
-    print("ODD Number");
-  }
+  stdout.write("Enter Rate Amount:");
+  double Rate= double.parse(stdin.readLineSync()!);
+
+  stdout.write("Enter Time (in years):");
+  double Time= double.parse(stdin.readLineSync()!);
+
+  var simpleInterest= (Pricipal*Rate*Time)/100;
+
+  print(simpleInterest);
+
+
 }
