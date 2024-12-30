@@ -8,12 +8,17 @@ void main() {
   int num= int.parse(stdin.readLineSync()!);
 
   int rev=0;
+  int temp=num;
 
-  while(num!=0){
-    int digit=num%10;
+  while(temp!=0){
+    int digit=temp%10;
     rev=rev*10+digit;
-    num~/=10;
+    temp~/=10;
   }
-
-  print("Reverse Number is: $rev");
+  if(num==rev){
+    print("Palindrome");
+  }
+  else{
+    print("Not Palindrome");
+  }
 }
