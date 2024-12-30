@@ -1,9 +1,11 @@
-void main() {
+void main(){
 
-  var num1=20;
-  var num2=25;
-   
-  if(num2%2!=0){
+  var number=25;
+
+  if(number%2==0){
+    print("Even Number");
+  }
+  else{
     print("ODD Number");
   }
 }
