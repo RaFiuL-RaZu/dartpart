@@ -1,10 +1,8 @@
 
 
-import 'dart:io';
-
 void main() {
-  String word="RAZU";
+  String word="Razu";
 
-  var lower=word.toLowerCase();
+  var lower=word.toUpperCase();
   print(lower);
 }
