@@ -1,9 +1,9 @@
 
 void main() {
-  List<int> list1 = [1, 2, 3, 4, 5];
-  List<int> list2 = [2, 3, 4];
 
-  bool isSubset = list1.contains(list2);
+  var num1=20;
+  var num2=25;
 
-  print(isSubset);
+  var sum=num1+num2;
+  print(sum);
 }
