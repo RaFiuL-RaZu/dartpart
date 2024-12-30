@@ -1,22 +1,13 @@
 
 
-void main(){
-
-  int num=133;
-
-  int sum=0,r;
-  int temp=num;
-  while(temp!=0){
-    r=temp%10;
-    sum=sum+r*r*r;
-    temp~/=10;
+void main() {
+  String str="Razu";
+  int count=0;
+  for(int i=0; i<str.length; i++){
+    if("aeiou".contains(str[i].toLowerCase())){
+      count++;
+    }
 
   }
-  if(num==sum){
-    print("Armostrong");
-  }
-  else{
-    print("Not Armostrong");
-  }
-
+  print(" Vowel are: $count");
 }
