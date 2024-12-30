@@ -3,6 +3,8 @@
 void main() {
   String word="Razu";
 
-  var lower=word.toUpperCase();
-  print(lower);
+  int num=5;
+  int pow=num;
+
+  print(pow*num);
 }
