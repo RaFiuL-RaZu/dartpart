@@ -7,18 +7,11 @@ void main() {
   stdout.write("Enter your Number :");
   int num= int.parse(stdin.readLineSync()!);
 
-  int rev=0;
-  int temp=num;
-
-  while(temp!=0){
-    int digit=temp%10;
-    rev=rev*10+digit;
-    temp~/=10;
-  }
-  if(num==rev){
-    print("Palindrome");
-  }
-  else{
-    print("Not Palindrome");
+  int a=0,b=1;
+  for(int i=0;i<num;i++){
+    print(a);
+    int next=a+b;
+    a=b;
+    b=next;
   }
 }
