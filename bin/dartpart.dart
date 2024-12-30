@@ -2,9 +2,15 @@
 
 void main(){
 
-  String word="HELLO";
+  String word="Hello";
 
-  String reverse= word.split('').reversed.join('');
-  print(reverse);
+  String rev=word.split('').reversed.join('');
+  print(rev);
+  if(word==rev){
+    print("Palindrome");
+  }
+ else{
+   print("Not Palindrome");
+  }
 
 }
