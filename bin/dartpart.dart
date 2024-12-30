@@ -2,7 +2,7 @@
 
 void main(){
 
-  String word="Hello";
+  String word="HOH";
 
   String rev=word.split('').reversed.join('');
   print(rev);
