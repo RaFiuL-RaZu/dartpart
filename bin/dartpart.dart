@@ -1,8 +1,8 @@
-import 'dart:io';
+
 
 void main(){
 
-  String word="Hello World";
+  String word="HELLO";
 
   String reverse= word.split('').reversed.join('');
   print(reverse);
