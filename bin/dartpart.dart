@@ -1,15 +1,9 @@
 
 void main(){
-   int result=sum10Number();
-   print(result);
-
+   print(sum(5,10));
 }
 
-int sum10Number(){
-   int sum=0;
+int sum(int a,int b){
 
-   for(int i=0; i<=10;i++){
-      sum=sum+i;
-   }
-   return sum;
+   return a+b;
 }
