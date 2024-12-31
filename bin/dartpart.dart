@@ -1,7 +1,7 @@
- List<int> DuplicateList(List<int> numbers){
-   return numbers.toSet().toList();
-
- }
+int LengthofString(String str){
+   return str.length;
+}
+ 
  void main(){
-   print(DuplicateList([1,2,2,4,3,3,6,6,5]));
+   print(LengthofString("Rafiul Islam Razu"));
  }
