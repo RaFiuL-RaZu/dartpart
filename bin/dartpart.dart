@@ -1,14 +1,11 @@
-bool armostrongNumber(int num){
-   int sum=0;
-   int temp=num;
-   while(temp>0){
-      int r=temp%10;
-      sum+=r*r*r;
-      temp=temp~/10;
-   }
-   return sum==num;
+class Person {
+   String name;
+   int age;
 
+   Person(this.name, this.age);
 }
-void main(){
-    print(armostrongNumber(153));
+
+void main() {
+   var person = Person("Alice", 25);
+   print("Name: ${person.name}, Age: ${person.age}");
 }
