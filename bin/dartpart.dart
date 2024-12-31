@@ -1,8 +1,15 @@
 
-int findMax(List<int> list1){
-   return list1.reduce((a,b)=> a>b?a:b);
+int fiboSerise(int n){
+    int a=0,b=1;
+    for(int i=1; i<n;i++){{
+       print(a);
+       int fibo=a+b;
+       a=b;
+       b=fibo;
+    }}
+    return a;
 
 }
 void main(){
-   print(findMax([3,1,5,2,6]));
+   print(fiboSerise(5));
 }
