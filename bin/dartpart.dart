@@ -1,8 +1,11 @@
 
-void main(){
-   print(sum(5,10));
+bool isprime(int number){
+   if(number<=1) return false;
+   for(int i=2;i<=number~/2; i++){
+      if(number%i==0) return false;
+   }
+   return true;
 }
-
-int sum(int a,int b){
-   return a+b;
+void main(){
+   print(isprime(20));
 }
