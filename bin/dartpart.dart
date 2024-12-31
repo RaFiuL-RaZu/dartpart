@@ -1,7 +1,8 @@
 
-String reverse(String str){
-   return str.split('').reversed.join('');
+bool ispalindrome(String str){
+   String reverse=str.split('').reversed.join('');
+   return reverse==str;;
 }
 void main(){
-   print(reverse("Hello"));
+   print(ispalindrome("radam"));
 }
