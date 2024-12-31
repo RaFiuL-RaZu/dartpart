@@ -1,11 +1,13 @@
 
-bool isprime(int number){
-   if(number<=1) return false;
-   for(int i=2;i<=number~/2; i++){
-      if(number%i==0) return false;
+int Factorial(int num){
+   int Fact=1;
+   if(num>1){
+      for(int i=1;i<=num;i++){
+         Fact=Fact*i;
+      }
    }
-   return true;
+   return Fact;
 }
 void main(){
-   print(isprime(20));
+   print(Factorial(6));
 }
