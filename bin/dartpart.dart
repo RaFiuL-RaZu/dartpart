@@ -1,11 +1,6 @@
- int Gcd(int a,int b){
-   while(b!=0){
-      int temp=b;
-      b=a%b;
-      a=temp;
-   }
-   return a;
+ bool LeapYear(int year){
+   return(year%4==0 && year%100!=0)||(year/400==0);
  }
  void main(){
-   print(Gcd(6,9));
+   print(LeapYear(2025));
  }
