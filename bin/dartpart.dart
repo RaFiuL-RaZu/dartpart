@@ -1,8 +1,8 @@
 
-bool ispalindrome(String str){
-   String reverse=str.split('').reversed.join('');
-   return reverse==str;;
+int findMax(List<int> list1){
+   return list1.reduce((a,b)=> a>b?a:b);
+
 }
 void main(){
-   print(ispalindrome("madam"));
+   print(findMax([3,1,5,2,6]));
 }
