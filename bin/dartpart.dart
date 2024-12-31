@@ -4,5 +4,5 @@ bool ispalindrome(String str){
    return reverse==str;;
 }
 void main(){
-   print(ispalindrome("radam"));
+   print(ispalindrome("madam"));
 }
