@@ -1,9 +1,11 @@
-double celciousTOfarenheit(int celcious){
-
-   double farenheite=((celcious*9)/5)+32;
-   return farenheite;
-
-}
-void main(){
-   print(celciousTOfarenheit(40));
-}
+ int Gcd(int a,int b){
+   while(b!=0){
+      int temp=b;
+      b=a%b;
+      a=temp;
+   }
+   return a;
+ }
+ void main(){
+   print(Gcd(6,9));
+ }
