@@ -1,13 +1,7 @@
 
-int Factorial(int num){
-   int Fact=1;
-   if(num>1){
-      for(int i=1;i<=num;i++){
-         Fact=Fact*i;
-      }
-   }
-   return Fact;
+String reverse(String str){
+   return str.split('').reversed.join('');
 }
 void main(){
-   print(Factorial(8));
+   print(reverse("Hello"));
 }
