@@ -5,5 +5,5 @@ double areaOFcircle(double r){
    return area;
 }
 void main(){
-   print(areaOFcircle(10));
+   print(areaOFcircle(5));
 }
