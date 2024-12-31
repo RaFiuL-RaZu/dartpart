@@ -1,19 +1,15 @@
 
-import 'dart:developer';
-
 void main(){
+   int result=sum10Number();
+   print(result);
 
-   int a=10,b=15,c=20;
+}
 
-   if(a>b){
-      if(a>c){
-         print("a is large");
-      }
+int sum10Number(){
+   int sum=0;
+
+   for(int i=0; i<=10;i++){
+      sum=sum+i;
    }
-   else if(b>c){
-      print("b is large");
-   }
-   else{
-      print("C is large");
-   }
+   return sum;
 }
