@@ -10,5 +10,5 @@ bool armostrongNumber(int num){
 
 }
 void main(){
-    print(armostrongNumber(144));
+    print(armostrongNumber(153));
 }
