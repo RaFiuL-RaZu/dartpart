@@ -1,6 +1,5 @@
  List<int> DuplicateList(List<int> numbers){
-   var Duplicate=numbers.toSet().toList();
-   return Duplicate;
+   return numbers.toSet().toList();
 
  }
  void main(){
