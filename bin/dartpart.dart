@@ -1,7 +1,7 @@
-int LengthofString(String str){
-   return str.length;
+int sumoFList(List<int> Numbers){
+   int sum=Numbers.reduce((a,b)=> a+b);
+   return sum;
 }
- 
  void main(){
-   print(LengthofString("Rafiul Islam Razu"));
+   print(sumoFList([1,2,3,4,5,6]));
  }
