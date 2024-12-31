@@ -1,7 +1,8 @@
- bool LeapYear(int year){
-   return(year%4==0 && year%100!=0)||(year/400==0);
+ List<int> DuplicateList(List<int> numbers){
+   var Duplicate=numbers.toSet().toList();
+   return Duplicate;
 
  }
  void main(){
-   print(LeapYear(2024));
+   print(DuplicateList([1,2,2,4,3,3,6,6,5]));
  }
