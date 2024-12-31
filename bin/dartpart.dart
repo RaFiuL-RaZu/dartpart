@@ -1,9 +1,10 @@
 
-List<int> sortList(List<int> numbers){
-   numbers.sort();
-   return numbers;
+void multiplication(int n){
+   for(int i=1;i<=10;i++){
+      print('$n x $i =${n*i}');
+   }
 }
 
 void main(){
-   print(sortList([1,4,6,2,3,8,7,9]));
+   multiplication(5);
 }
