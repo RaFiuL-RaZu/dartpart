@@ -1,9 +1,9 @@
 
-double areaOFcircle(double r){
-   double pi=3.1416;
-   double area=pi*r*r;
-   return area;
+List<int> sortList(List<int> numbers){
+   numbers.sort();
+   return numbers;
 }
+
 void main(){
-   print(areaOFcircle(5));
+   print(sortList([1,4,6,2,3,8,7,9]));
 }
