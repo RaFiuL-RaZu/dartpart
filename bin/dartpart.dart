@@ -9,5 +9,5 @@ int Factorial(int num){
    return Fact;
 }
 void main(){
-   print(Factorial(6));
+   print(Factorial(8));
 }
