@@ -1,10 +1,9 @@
+double celciousTOfarenheit(int celcious){
 
-void multiplication(int n){
-   for(int i=1;i<=10;i++){
-      print('$n x $i =${n*i}');
-   }
+   double farenheite=((celcious*9)/5)+32;
+   return farenheite;
+
 }
-
 void main(){
-   multiplication(5);
+   print(celciousTOfarenheit(40));
 }
