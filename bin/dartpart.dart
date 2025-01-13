@@ -1,5 +1,5 @@
 void main(){
     var listitem={1,2,3,4,5,6};
 
-    print(listitem.length);
+    print(listitem.first);
 }
