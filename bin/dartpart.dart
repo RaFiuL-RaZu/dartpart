@@ -1,5 +1,4 @@
 void main(){
-   String name="RaFiul Razu";
-
-   print(name);
+    var listitem={"1,2,3,4,5,6"};
+    print(listitem);
 }
