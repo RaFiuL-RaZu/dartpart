@@ -3,5 +3,5 @@
 void main(){
 
   var name="RaFiul";
-  print(name.length);
+  print(name.isEmpty);
 }
