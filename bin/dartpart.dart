@@ -1,7 +1,10 @@
 
 
 void main(){
+  var num=10;
+  var num2=15;
 
-  var list1={1,2,3,4,5,6};
-  print(list1.isEmpty);
+  var sum=num-num2;
+  print(sum);
 }
+
