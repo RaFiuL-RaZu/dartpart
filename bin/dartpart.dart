@@ -2,7 +2,6 @@
 
 void main(){
 
-  var list1={"Razu","Sazu","RaFi"};
-  list1.remove("Sazu");
-  print(list1);
+  var map1=["Name:RaFi","Age:23","Dept:Computer"];
+  print(map1);
 }
