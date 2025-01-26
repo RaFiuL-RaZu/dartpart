@@ -2,6 +2,7 @@
 
 void main(){
 
-  var name="RaFiul";
-  print(name.toUpperCase());
+  var list1={1,2,3,4,5,6};
+  print(list1.length);
+
 }
