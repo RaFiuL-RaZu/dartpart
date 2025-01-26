@@ -2,7 +2,7 @@
 
 void main(){
 
-  String str="Rafiul Islam";
-
-  print(str);
+  var list1={1,2,3,4,5};
+  list1.add(6);
+  print(list1);
 }
